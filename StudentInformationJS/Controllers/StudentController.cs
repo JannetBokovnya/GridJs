@@ -63,6 +63,7 @@ namespace StudentInformationJS.Controllers
             {
                 StudentList = StudentList.OrderBy(t => t.Name);
                 StudentList = StudentList.Skip(pageIndex * pageSize).Take(pageSize);
+                //test
             }
             var jsonData = new
             {
